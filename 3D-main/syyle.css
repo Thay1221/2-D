@@ -31,7 +31,7 @@ body {
     font-size: 32px;
 }
 .titulo-principal span {
-    color: var(--color1);
+    color: var(--verde);
 }
 .botao {
     font-family: "Crakra Petch", sans-serif;
@@ -48,18 +48,8 @@ body {
     border-right: 2px solid var(--botao-ativo);
     border-top: none;
 }
-.botao:first-child {
-    border-radius: 40px 40px 0 0;
-}
-
 .botoes {
     display: block;
-}
-
-@media screen and (min-width: 768px) {
-    .botoes {
-        display: flex;
-    }
 }
 @media screen and (min-width: 768px) {
     .botoes {
@@ -74,4 +64,3 @@ body {
         border-radius: 0 40px 0 0;
     }
 }
-
